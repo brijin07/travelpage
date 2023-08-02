@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Lumanosimo&family=Rajdhani:wght@500&display=swap');
+
+
+body{
+    background: url('./images/small-house-built-peaceful-green-hill-high-up-mountains.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+
+
+}
+.section1{
+    /* background: url('./images/small-house-built-peaceful-green-hill-high-up-mountains.jpg');
+    background-size:cover; */
+    /* background-attachment: fixed; */
+    color: white ;
+
+  
+    height:600px;
+    /* height: 100%; */
+   
+}
+.contact-nav:hover{
+    color: black;
+}
+.contact-nav{
+   border-radius: 20px;
+   height: 35px;
+   width: 112px;
+   border: 2px rgb(94, 91, 91) solid;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+.nav-item .nav-link{
+    color: white;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+/* main head */
+
+
+.heading-main{
+    font-size: 50px;
+    font-family: 'Lumanosimo', cursive;
+    color: white;
+    margin-top: 100px;
+    text-align:start;
+    font-weight: bolder;
+   
+}
+
+/* about */
+.btn-about{
+    width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    border-radius: 25px;
+    border: 1px white solid;
+    color: white;
+
+}
+.section2{
+    color: white ;
+ } 
+
+.section2 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.img-about1{
+    width: 250px;
+    height: 330px;
+    /* background-color: blue; */
+    background: url('./images/about_1.jpg.webp');
+    background-size: cover;
+}
+.img-about2{
+    width: 250px;
+    height: 330px;
+    /* background-color: blue; */
+    background: url('./images/about_2.jpg.webp');
+    background-size: cover;
+
+}
+.img-container{
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+}
+.card-img-div{
+    width: 100%;
+    height: 500px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+     
+}
+
+/* .card-img{
+    width: 10px;
+    height: 100%;
+    background-color: aqua;
+    margin:0px 2px;
+} */
+
+.card-img-top{
+    height: 300px;
+ }
+
+ .blog-card{
+    display: flex;
+
+ }
+
+ /* section 6 */
+ .link-warning{
+    text-decoration: none;
+    font-weight: 200;
+ }
+
+ #blog{
+    margin-top: 200px;
+ }
+ #service{
+    margin-top: 200px;
+ }
+ #about{
+
+    margin-top: 200px;
+
+ }
+ #customer{
+    margin-top: 200px;
+ }
+ .last-div{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: chocolate;
+    /* margin-left: 30px; */
+    color: white;
+ }
+
+
+
+ 
+
+
+/* media query */
+@media (max-width:500px){
+
+   
+    
+
+    .heading-main{
+        font-size: 40px;
+        font-family: 'Lumanosimo', cursive;
+        color: white;
+        text-align: center;
+        
+    }
+    .section1{
+        height: 500px;
+    } 
+    .img-about2{
+        display:none;
+    }
+
+.img-about1{
+    width: 100%;
+    height: 400px;
+}
+
+.heading-main{
+    font-size:50 px;
+    font-family: 'Lumanosimo', cursive;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    /* text-align: justify; */
+}
+
+.section2{
+    color: white ;
+ } 
+
+ /* card img */
+ .card-img-div{
+    width: 100%;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+     
+}
+
+
+ #card3{
+    display: none;
+ }
+
+ .card-img-top{
+    height: 200px;
+ }
+.blog-card{
+    height: 460px;
+}
+
+#blog{
+    margin-top: 100px;
+    
+ }
+
+#service{
+   margin-top: 100px;
+}
+#about{
+
+   margin-top: 100px;
+
+}
+#customer{
+   margin-top: 100px;
+}
+.last-h1{
+    font-size: 13px;
+}
+
+ 
+
+
+
+}
