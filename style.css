@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Lumanosimo&family=Rajdhani:wght@500&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     background: url('./images/small-house-built-peaceful-green-hill-high-up-mountains.jpg');
     background-size:cover;
     background-attachment: fixed;
+    box-sizing: border-box;
+
 
 
 }
