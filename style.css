@@ -56,7 +56,7 @@
 
 /* about */
 .btn-about{
-    width: 150px;
+    width: 130px;
     height: 50px;
     background-color: chocolate;
     border-radius: 25px;
@@ -155,7 +155,7 @@
 
 
 /* media query */
-@media (max-width:500px){
+@media (max-width:600px){
 
    
     
